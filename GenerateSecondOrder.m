@@ -10,7 +10,7 @@ m = size(adj2, 1);
 nm = n*m;
 D = zeros(nm);
 sigma = 0.5;
-cluster_weight = 100;
+cluster_weight = 1;
 
 k = 20;
 hist_edges = (0:k);
